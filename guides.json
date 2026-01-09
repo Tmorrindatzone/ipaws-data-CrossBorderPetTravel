@@ -1,16 +1,30 @@
 [
   {
-    "id": "g_1",
-    "title": "日本入境：犬猫基础流程（示例）",
+    "id": "jp_import_dogcat_nondesignated_180d",
+    "title": "日本入境（犬/猫，非指定地域）：抗体检测后需等待满 180 天",
     "direction": "inbound",
     "region": "日本",
     "routeType": "直飞/转机",
     "petType": "dog",
-    "tags": ["日本", "犬", "抗体检测", "检疫预约"],
-    "scope": "适用于携犬入境日本的常见流程参考（示例）。",
-    "lastVerifiedAt": "2025-12-10",
-    "source": "日本检疫官方页面（示例）",
-    "riskNotes": "各机场预约与材料要求可能变化；以官方最新要求为准。",
-    "content": "1) 芯片/疫苗/抗体检测与等待期\n2) 提前线上预约检疫\n3) 临飞复核航司政策与箱体要求\n4) 到达后按机场检疫指引办理。"
+    "tags": ["日本", "犬/猫", "狂犬抗体检测", "180天等待期"],
+    "scope": "适用于从“非指定地域”携犬猫入境日本的一般要求摘要（详细以官方步骤为准）。",
+    "lastVerifiedAt": "2026-01-10",
+    "source": "日本农林水产省 MAFF / Animal Quarantine Service 官方页面",
+    "riskNotes": "不同国家/路线、材料有效期与预约要求可能变化；临飞务必按官方清单逐条核对。",
+    "content": "关键点：\n- 狂犬抗体检测采血日计为 Day0，入境日本需在采血后满 180 天。\n- 入境日需仍在狂犬疫苗有效期内，且抗体检测有效期为采血日起 2 年。\n- 若等待期不足，可能需要在动物检疫设施内补足剩余天数。"
+  },
+  {
+    "id": "uk_bring_pet_gb_steps",
+    "title": "携宠入境英国（大不列颠）：路线合规 + 芯片 + 狂犬疫苗 + 合规文件",
+    "direction": "inbound",
+    "region": "英国（Great Britain）",
+    "routeType": "直飞/转机",
+    "petType": "cat",
+    "tags": ["英国", "猫/狗/雪貂", "芯片", "狂犬疫苗", "文件"],
+    "scope": "适用于携猫/狗/雪貂进入或返回 Great Britain 的官方步骤摘要。",
+    "lastVerifiedAt": "2026-01-10",
+    "source": "GOV.UK 官方指南：Bring your pet to Great Britain",
+    "riskNotes": "不同出发地对应的文件类型不同；请按 GOV.UK 最新页面选择正确证件与批准路线。",
+    "content": "关键点：\n- 先确认使用批准路线（approved route）。\n- 必须先植入芯片，再进行狂犬疫苗。\n- 准备符合出发地要求的旅行文件（如 pet passport / health certificate 等）。"
   }
 ]
