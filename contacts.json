@@ -1,14 +1,38 @@
 [
   {
-    "id": "c_1",
-    "name": "日本 动物检疫（示例）",
+    "id": "aqs_narita_t1",
+    "name": "Animal Quarantine Service (AQS) – Narita (Terminal 1)",
+    "country": "日本",
+    "city": "千叶",
+    "airport": "成田 NRT T1",
+    "tags": ["官方检疫", "犬猫入境", "预约/咨询"],
+    "phone": "+81-476-32-6510",
+    "language": "日/英（以现场为准）",
+    "businessHours": "8:30-17:00",
+    "notes": "邮箱：aqs.nrtr1@maff.go.jp（以官方联系表为准）。"
+  },
+  {
+    "id": "aqs_haneda",
+    "name": "Animal Quarantine Service (AQS) – Haneda",
     "country": "日本",
     "city": "东京",
     "airport": "羽田 HND",
-    "tags": ["官方检疫", "入境咨询"],
-    "phone": "+81 03 0000 0000",
-    "language": "日/英",
-    "businessHours": "工作日 9:00-17:00（示例）",
-    "notes": "建议提前预约/邮件确认。"
+    "tags": ["官方检疫", "犬猫入境", "预约/咨询"],
+    "phone": "+81-3-5757-9752",
+    "language": "日/英（以现场为准）",
+    "businessHours": "8:30-17:00",
+    "notes": "邮箱：aqs.hnd@maff.go.jp（以官方联系表为准）。"
+  },
+  {
+    "id": "aqs_kansai",
+    "name": "Animal Quarantine Service (AQS) – Kansai",
+    "country": "日本",
+    "city": "大阪",
+    "airport": "关西 KIX",
+    "tags": ["官方检疫", "犬猫入境", "预约/咨询"],
+    "phone": "+81-72-455-1956",
+    "language": "日/英（以现场为准）",
+    "businessHours": "8:30-17:00",
+    "notes": "邮箱：aqs.kixk1@maff.go.jp（以官方联系表为准）。"
   }
 ]
