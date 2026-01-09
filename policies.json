@@ -1,16 +1,44 @@
 [
   {
-    "id": "cx_policy_1",
-    "airline": "国航（示例）",
-    "route": "深圳 ⇄ 东京",
+    "id": "jal_intl_pets_cargo",
+    "airline": "Japan Airlines (JAL)",
+    "route": "International (所有国际航线)",
+    "travelMode": "cargo",
+    "routeType": "nonstop",
+    "tags": ["货运", "温控禁运提示", "直飞/转机叠加限制"],
+    "summary": "JAL 国际航班携宠：宠物以货运方式运输（请参考 JAL Cargo 指引）。",
+    "scope": "适用于 JAL 国际航班宠物运输服务说明（以航司最新公告为准）。",
+    "lastVerifiedAt": "2026-01-10",
+    "source": "JAL 官方页面：Traveling with pets（International Flights）",
+    "riskNotes": "临飞政策与限制可能变化，建议出行前再次确认；不同航段/中转可能叠加要求。",
+    "details": "温度/湿度：宠物在地面等待/装卸期间可能受外界气温影响，存在高温风险提示。"
+  },
+  {
+    "id": "ana_pets_cargo_phone_only",
+    "airline": "All Nippon Airways (ANA)",
+    "route": "International / ANA-operated flights",
+    "travelMode": "cargo",
+    "routeType": "nonstop",
+    "tags": ["货运", "预约电话", "不支持线上预约"],
+    "summary": "ANA 宠物运输：宠物在同一航班随行时，可作为货舱运输；需提前联系（电话预约），不接受线上预约。",
+    "scope": "适用于 ANA 自营航班且 ANA 航班号的宠物运输说明。",
+    "lastVerifiedAt": "2026-01-10",
+    "source": "ANA 官方页面：Traveling with Pets / Pets（International）",
+    "riskNotes": "不同机型/航段限制可能不同；请务必提前电话确认名额与箱体要求。",
+    "details": "要点：电话预约；仅限 ANA-operated 且 ANA flight number 的旅客。"
+  },
+  {
+    "id": "jal_domestic_weight_rule",
+    "airline": "Japan Airlines (JAL)",
+    "route": "Domestic (日本国内航线)",
     "travelMode": "checked",
     "routeType": "nonstop",
-    "tags": ["鼻短限制", "温控禁运提示", "尺寸/重量限制"],
-    "summary": "托运：需符合箱体尺寸/重量与季节温控限制；鼻短犬猫可能限制托运或需额外证明。",
-    "scope": "适用于国际航线（示例），具体以航司最新公告与订票渠道提示为准。",
-    "lastVerifiedAt": "2025-12-15",
-    "source": "航司官网/客服（示例）",
-    "riskNotes": "临飞政策可能变更，建议起飞前 72 小时再次确认。",
-    "details": "提示：高温/低温季可能暂停托运；转机段可能叠加限制。"
+    "tags": ["托运", "超过重量转货运", "重量阈值"],
+    "summary": "JAL 国内航班：宠物+笼具总重超过 32kg 将按货运处理（不作为旅客托运行李）。",
+    "scope": "适用于 JAL 日本国内航线宠物运输说明（以航司最新公告为准）。",
+    "lastVerifiedAt": "2026-01-10",
+    "source": "JAL 官方页面：Domestic Flights Traveling with pets",
+    "riskNotes": "不同承运公司/支线航班可能有不同重量限制；请临飞复核。",
+    "details": "规则核心：32kg 阈值；超出则转货运流程。"
   }
 ]
